@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.icon i{
+  background-color:black;
+  outline-color:aqua;
+  outline-style:solid ;
+  border-radius:50% ;
+  margin-left: 3%;
+  width: 50px;
+}
+.button{
+border: none;
+ background-color: aqua;
+ margin-left: 43%;
+ padding: 10px 25px;
+}
+p{
+    font-size: 20px;
+}
+.btn{
+    background-color: aqua;
+    outline-color:white;
+    outline-style:solid ;
+    color:white;
+    margin-left: 43%;
+    padding: 10px 25px;
+}
+.container{
+    box-shadow: 1px 2px 2px 2px black;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+@media screen and (max-width:860px){
+    .button{
+        margin-left: 20%;
+    }
+    .btn{
+        margin-left: 20%;
+    }
+    
+}
+@media screen and (max-width:560px){
+    .button{
+        margin-left: 35%;
+    }
+    .btn{
+        margin-left: 32%;
+    }
+}
